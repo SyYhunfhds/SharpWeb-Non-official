@@ -2,9 +2,9 @@ name: Build SharpWeb
 
 on:
   push:
-    branches: [ main ]
+    branches: [ explict-private ]
   pull_request:
-    branches: [ main ]
+    branches: [ explict-private ]
 
 jobs:
   build:
